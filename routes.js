@@ -20,7 +20,7 @@ routes.get('/publications', PublicationController.index);
 
 routes.post('/publications', PublicationController.create);
 
-routes.put('/publications', PublicationController.comment);
+routes.put('/publications/:id', PublicationController.comment);
 
 routes.delete('/publications/:id', PublicationController.delete);
 
